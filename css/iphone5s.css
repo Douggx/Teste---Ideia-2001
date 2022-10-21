@@ -1,0 +1,19 @@
+body {
+    background: #FFB64E;
+}
+
+.logo-section {
+    margin-top: 3.125rem;
+}
+
+.btn-group {
+    margin-bottom: 3.25rem;
+}
+
+.button-primary {
+    border: 0.125rem solid #444242;
+}
+
+.button-secondary {
+    border: 0.125rem solid #FFFFFF;
+}

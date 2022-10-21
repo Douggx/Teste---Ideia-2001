@@ -1,0 +1,23 @@
+header {
+    height: 8vh;
+}
+
+.sub-header {
+    justify-content: center;
+}
+
+.info-section {
+    align-items: center;
+}
+
+.social-media {
+    justify-content: center;
+}
+
+.sm-icons {
+    margin-right: 1.875rem;
+}
+
+footer {
+    margin-top: 35.625rem;
+}

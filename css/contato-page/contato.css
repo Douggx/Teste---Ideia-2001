@@ -1,0 +1,146 @@
+body {
+    font-family: 'Roboto';
+    background: #FFFFFF;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background: #444242;
+    box-shadow: 0rem 0.25rem 0.5rem 0rem #00000026;
+
+}
+
+.back-btn {
+    width: 1.25rem;
+    height: 1rem;
+    margin-left: 0.9375rem;
+    cursor: pointer;
+}
+
+.logo-header {
+    width: 7.625rem;
+    height: 2.3756rem;
+    margin-left: 3.75rem;
+}
+
+.carrinho-header {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+.menu-header {
+    width: 1.625rem;
+    height: 1.25rem;
+    margin-right: 1.375rem;
+}
+
+.sub-header {
+    display: flex;
+    align-items: center;
+    background: #F2F2F2;
+    height: 3.125rem;
+}
+
+.sub-header>h1 {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    color: #FA9401;
+    margin-left: 0.9375rem;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.divider {
+    width: 20.6875rem;
+    border: 0.0625rem solid #E8E8E8;
+
+
+}
+
+.icon-contact {
+    margin-left: 0.9375rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 1.0625rem;
+    margin-top: 1.3125rem;
+}
+
+.text-contact {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: #5B5A5A;
+    margin-top: 0.9375rem;
+
+}
+
+.contact-rows {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media {
+    margin-top: 2.875rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 11.0625rem;
+}
+
+.sm-icons {
+    width: 2.125rem;
+    height: 2.125rem;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.9375rem 0rem;
+
+    background: #FA9401;
+    height: 1.875rem;
+    box-shadow: 0rem -0.0625rem 0.25rem 0rem #00000026;
+}
+
+footer>h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.div-cart {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (min-height: 667px) {
+    .social-media {
+        margin-bottom: 12.375rem;
+    }
+}
+
+@media (min-height: 812px) {
+    .social-media {
+        margin-bottom: 20.625rem;
+    }
+}

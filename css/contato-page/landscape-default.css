@@ -1,0 +1,31 @@
+header {
+    height: 17vh;
+}
+
+.logo-header {
+    margin-left: 12.5rem;
+}
+
+.carrinho-header {
+    margin-left: 11.875rem;
+}
+
+.sub-header {
+    justify-content: center;
+}
+
+.info-section {
+    align-items: center;
+}
+
+.divider {
+    width: 28.125rem;
+}
+
+.social-media {
+    justify-content: center;
+}
+
+.sm-icons {
+    margin-right: 1.875rem;
+}

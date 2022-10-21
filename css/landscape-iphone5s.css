@@ -1,0 +1,24 @@
+.logo-section {
+    margin-top: 3.125rem;
+    margin-bottom: 1.5625rem;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button-primary {
+    margin-top: 0.9375rem;
+    margin-right: 0.4375rem;
+}
+
+.button-secondary {
+    margin-right: 0.4375rem;
+}
+
+.contact-group {
+    visibility: hidden;
+}
