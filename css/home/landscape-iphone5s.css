@@ -18,10 +18,12 @@ body {
 .button-primary {
     margin-top: 0.9375rem;
     margin-right: 0.4375rem;
+    border: 0.125rem solid #444242;
 }
 
 .button-secondary {
     margin-right: 0.4375rem;
+    border: 0.125rem solid #FFFFFF;
 }
 
 .contact-group {
