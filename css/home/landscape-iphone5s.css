@@ -1,6 +1,6 @@
 .logo-section {
-    margin-top: 3.125rem;
-    margin-bottom: 1.5625rem;
+    margin-top: 1.125rem;
+    margin-bottom: 1.125rem;
 }
 
 .btn-group {
@@ -8,6 +8,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 1rem;
 }
 
 .button-primary {
