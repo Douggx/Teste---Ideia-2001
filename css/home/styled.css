@@ -2,7 +2,6 @@ body {
     font-family: 'Roboto';
     background: #444242;
     height: 100vh;
-    width: 100vw;
 }
 
 header {
@@ -18,6 +17,7 @@ header {
     height: 2.125rem;
     margin-left: 0.9375rem;
     margin-top: 0.9375rem;
+    cursor: pointer;
 }
 
 #icon-menu {
@@ -25,6 +25,7 @@ header {
     height: 1.25rem;
     margin-right: 0.9375rem;
     margin-top: 0.9375rem;
+    cursor: pointer;
 }
 
 .logo-section {
@@ -68,6 +69,10 @@ header {
     cursor: pointer;
 }
 
+.button-primary:hover {
+    background-color: #C1770D;
+}
+
 .button-secondary {
     width: 16.5625rem;
     height: 3.125rem;
@@ -90,6 +95,11 @@ header {
     background-repeat: no-repeat;
     background-size: 1rem 1rem;
     cursor: pointer;
+    
+}
+
+.button-secondary:hover {
+    background-color: #C1770D;
 }
 
 .contact-group {
