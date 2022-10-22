@@ -28,4 +28,5 @@ body {
 
 .contact-group {
     visibility: hidden;
+    height: 1rem;
 }

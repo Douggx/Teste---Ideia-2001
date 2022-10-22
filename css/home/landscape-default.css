@@ -8,6 +8,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 0px;
 }
 
 .button-primary {
@@ -20,5 +21,6 @@
 }
 
 .contact-group {
+    height: 2rem;
     visibility: hidden;
 }
