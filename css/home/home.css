@@ -1,6 +1,19 @@
+/* Variables */
+
+:root {
+    --primary-bg-color: #444242;
+    --secondary-bg-color: #FFB64E;
+
+    --primary-button-color: #FA9401;
+    --secondary-button-color: #444242;
+    --hover-button-color: #C1770D; 
+}
+
+/* */
+
 body {
     font-family: 'Roboto';
-    background: #444242;
+    background: var(--primary-bg-color);
     height: 100vh;
 }
 
@@ -51,7 +64,7 @@ header {
 .button-primary {
     width: 16.5625rem;
     height: 3.125rem;
-    background: #FA9401;
+    background: var(--primary-button-color);
     border-radius: 3.125rem;
     border: none;
     padding-left: 1.25rem;
@@ -70,13 +83,13 @@ header {
 }
 
 .button-primary:hover {
-    background-color: #C1770D;
+    background-color: var(--hover-button-color)
 }
 
 .button-secondary {
     width: 16.5625rem;
     height: 3.125rem;
-    background: #444242;
+    background: var(--secondary-button-color);
     border-radius: 3.125rem;
     border: none;
     padding-left: 1.25rem;

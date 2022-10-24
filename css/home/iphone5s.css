@@ -1,5 +1,5 @@
 body {
-    background: #FFB64E;
+    background: var(--secondary-bg-color)
 }
 
 .logo-section {
